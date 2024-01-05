@@ -453,6 +453,7 @@ vim.keymap.set('n', '<leader>sG', ':LiveGrepGitRoot<cr>', { desc = '[S]earch by 
 vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { desc = '[S]earch [D]iagnostics' })
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 vim.keymap.set('n', '<leader>si', require('telescope').extensions.live_grep_args.live_grep_args, { desc = '[S]earch [I]n Files', noremap = true })
+vim.keymap.set('n', '<Tab>', ':bn<cr>' , { desc = 'Next Tab', noremap = true })
 
 
 -- [[ Configure Treesitter ]]
