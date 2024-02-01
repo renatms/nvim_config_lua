@@ -76,7 +76,7 @@ require('lazy').setup({
   require('plugins.nvim-tree'),
   -- require('plugins.neo-tree'),
   require('plugins.nvim-dadbod'),
-  require('plugins.bufferline-nvim'),
+  -- require('plugins.bufferline-nvim'),
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
@@ -299,7 +299,7 @@ require('lazy').setup({
   -- { import = 'custom.plugins' },
 }, {})
 
-require('bufferline').setup {}
+-- require('bufferline').setup {}
 
 
 -- [[ Setting options ]]
